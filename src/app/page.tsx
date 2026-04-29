@@ -178,8 +178,8 @@ export default function Home() {
             className="lg:col-span-7 relative z-10"
           >
             <h1 className="font-headline text-[clamp(2.5rem,8vw,5.5rem)] leading-[0.9] text-on-surface mb-6 md:mb-8 font-bold ">
-              Not Advertising, <br className="hidden md:block" />
-              <span className="text-white bg-[#E2007B] brutal-border brutal-shadow px-3 md:px-6 inline-block mt-2 md:mt-4">An Experience</span>
+              You Marry, <br className="hidden md:block" />
+              <span className="text-white bg-[#E2007B] brutal-border brutal-shadow px-3 md:px-6 inline-block mt-2 md:mt-4">Brands Pay</span>
             </h1>
             <p className="font-body text-base md:text-body-lg text-on-surface-variant mb-8 md:mb-10 max-w-2xl">
               Reject the muted beige. Join the most high-octane, visually explosive Indian wedding celebration of the year. Unprecedented reach, unbridled energy.
