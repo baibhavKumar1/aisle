@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
 export default function PopArtSVG() {
-  const [dots, setDots] = useState<{id: number, cx: number, cy: number, delay: number}[]>([]);
+  const [dots, setDots] = useState<{ id: number, cx: number, cy: number, delay: number }[]>([]);
 
   useEffect(() => {
     setDots(Array.from({ length: 20 }).map((_, i) => ({
@@ -36,7 +36,7 @@ export default function PopArtSVG() {
             <path
               key={i}
               d="M 250 250 L 500 150 L 500 350 Z"
-              fill={i % 2 === 0 ? "#FFB800" : "#E2007B"}
+              fill={i % 2 === 0 ? "#FFDF94" : "#E2007B"}
               transform={`rotate(${i * 30} 250 250)`}
               className="opacity-20"
             />
